@@ -10,17 +10,17 @@
     <body>
         <div class="container">
             <div class="row justify-content-between border-bottom border-dark py-2 align-items-center">
-                <div class="col-lg-auto">
+                <div class="col-md-auto">
                     <h2>Howdy, {{info.first_name}}!</h2>
                 </div>
-                <div class="col-lg-2 offset-lg-4 text-center">
+                <div class="col-md-2 offset-md-4 text-center">
                     <form action="/logout">
                         <input class="form-control btn-danger" type="submit" value="Sign Out">
                     </form>
                 </div>
             </div>
             <div class="row justify-content-between border-bottom border-dark py-2 align-items-center">
-                <div class="col-lg-10 my-5 py-2 px-4 offset-lg-1 justify-content-center align-items-center border border-dark">
+                <div class="col-md-10 my-5 py-2 px-4 offset-md-1 justify-content-center align-items-center border border-dark">
                     {% if liked_shows %}
                     <h3>Liked TV Shows</h3>
                         <table class="table mt-1 table-bordered rounded">
